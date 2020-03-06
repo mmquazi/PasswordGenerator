@@ -51,6 +51,6 @@
 
 function syncCharacter(e){
     const value = e.target.value;
-    characterAmountNumber = value.characterAmountNumber;
-    characterAmountRange = value.characterAmountRange;
+    characterAmountNumber.value = value;
+    characterAmountRange.value = value;
 }
