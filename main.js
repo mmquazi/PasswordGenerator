@@ -43,7 +43,15 @@ characterAmountNumber.addEventListener('input', syncCharacter);
      passwordDisplay.innerText = password;
  })
 
-    
+ /**
+  * Reset button
+  */
+
+form.addEventListener('reset', e=>{
+    passwordDisplay.innerText = '';
+})
+  
+
 /**
  * The logic to generate the password.  
  */
